@@ -1,0 +1,4 @@
+yolo_detector_node:
+  ros__parameters:
+    model_path: 'yolov8n.pt'  # 替换为你的模型路径
+    confidence_threshold: 0.5

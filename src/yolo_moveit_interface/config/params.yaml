@@ -1,0 +1,8 @@
+yolo_moveit_node:
+  ros__parameters:
+    camera_frame: "camera_color_optical_frame"
+    target_frame: "base_link"
+    planning_group: "arm"
+    end_effector_link: "end_effector_link"
+    yolo_topic: "/yolo/detections"
+    camera_info_topic: "/camera/camera_info"
